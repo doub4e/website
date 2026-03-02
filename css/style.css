@@ -1,12 +1,13 @@
 /*PCディスプレイ全般向け表示設定*/
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 961px) {
     body {
         background-color: azure;
     }
 
     a {
         text-decoration: none;
+        cursor: pointer;
     }
 
     .diary-button {
@@ -16,7 +17,6 @@
         border: solid 4px black;
         border-radius: 20%;
         text-align: center;
-        cursor: pointer;
 
         /*画面左下に固定*/
         position: fixed;
@@ -202,3 +202,4 @@
     }
 
 }
+
