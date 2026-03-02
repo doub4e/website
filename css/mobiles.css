@@ -1,0 +1,198 @@
+/*スマホ・タブレット向け*/
+
+@media screen and (max-width: 960px) {
+    body {
+        background-color: azure;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .diary-button {
+        width: 75px;
+        height: 75px;
+        background-color: lightyellow;
+        border: solid 4px black;
+        border-radius: 50%;
+        text-align: center;
+
+        /*画面左下に固定*/
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999;
+    }
+
+    .button-text {
+        font-size: 1.0rem;
+        line-height: 1.7rem;
+        font-weight: bold;
+        color: coral;
+        text-shadow: 0.1rem 0.1rem 2px lightgray;
+    }
+
+    .header {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Name {
+        font-size: 1.8rem;
+        line-height: 5rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: black;
+        text-shadow: 0.25rem 0.25rem 2px gray;
+        cursor: pointer;
+    }
+
+    .naMe {
+        font-size: 2.0rem;
+        line-height: 5rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: black;
+        text-shadow: 0.25rem 0.25rem 2px gray;
+        cursor: pointer;
+    }
+
+    .pc-undername {
+        display: none;
+    }
+
+    .ms-undername {
+        font-size: 1.0rem;
+        line-height: 2rem;
+        font-weight: bold;
+        font-family: serif;
+        color: black;
+        text-shadow: 0.1rem 0.1rem 2px orangered;
+    }
+
+    .during-space {
+        width: 100%;
+        height: 1rem;
+    }
+
+    .during-line {
+        width: 60%;
+        height: 6px;
+        border-radius: 10px;
+        margin: 0 0 auto auto;
+        background-color: navy;
+    }
+
+    .topic-content {
+        width: 100%;
+        display: block;
+    }
+
+    .topic-text-i {
+        width: 100%;
+        text-align: center;
+    }
+
+    .topic-text-ii {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ftext {
+        font-size: 1.2rem;
+        line-height: 3rem;
+        font-weight: bold;
+        font-family: serif;
+        color: maroon;
+        text-shadow: 0.1rem 0.1rem 2px lightgray;
+    }
+
+    .image-topic-i {
+        display: none;
+    }
+
+    .image-topic-ii {
+        display: none;
+    }
+
+    img {
+        display: none;
+    }
+
+    .company-explain {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-title-cell {
+        text-align: center;
+    }
+
+    .about-title {
+        font-size: 1.4rem;
+        line-height: 4rem;
+        font-weight: bold;
+        color: blue;
+        text-shadow: 0.1rem 0.1rem 2px gray;
+    }
+
+    .content-title-cell {
+        width: 45%;
+        text-align: center;
+    }
+
+    .content-title {
+        font-size: 1.2rem;
+        line-height: 3.5rem;
+        font-weight: bold;
+        color: black;
+        text-shadow: 0.1rem 0.1rem 2px gray;
+    }
+
+    .content-text-cell {
+        width: 55%;
+        text-align: left;
+    }
+
+    .content-text {
+        font-size: 1.0rem;
+        line-height: 2rem;
+        font-weight: normal;
+        color: black;
+        text-shadow: 0.1rem 0.1rem 2px lightgray;
+    }
+
+    .contact {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contact-text-space {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-text {
+        font-size: 1.0rem;
+        line-height: 2.0rem;
+        font-weight: normal;
+        color: black;
+        text-shadow: 0.1rem 0.1rem 2px lightcoral;
+    }
+
+    .footer {
+        width: 100%;
+        text-align: center;
+        background-color: lightgray;
+    }
+
+    .footer-text {
+        font-size: 1.0rem;
+        line-height: 2.0rem;
+        font-weight: bold;
+        font-family: serif;
+        color: black;
+        text-shadow: 0.1rem 0.1rem 2px red;
+    }
+}
