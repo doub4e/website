@@ -201,7 +201,7 @@
         text-shadow: 0.1rem 0.1rem 2px red;
     }
 
+    .only-mobiles {
+        display: none;
+    }
 }
-
-
-
