@@ -20,8 +20,8 @@
 
         /*画面左下に固定*/
         position: fixed;
-        bottom: 40px;
-        right: 40px;
+        bottom: 25px;
+        right: 25px;
         z-index: 999;
     }
 
@@ -202,5 +202,6 @@
     }
 
 }
+
 
 
