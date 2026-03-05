@@ -1,5 +1,4 @@
-/*スマホ・タブレット向け*/
-
+/*for mobiles*/
 @media screen and (max-width: 960px) {
     body {
         background-color: azure;
@@ -91,17 +90,17 @@
 
     .topic-text-i {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .topic-text-ii {
         width: 100%;
-        text-align: center;
+        text-align: right;
     }
 
     .ftext {
         font-size: 1.2rem;
-        line-height: 3rem;
+        line-height: 2.5rem;
         font-weight: bold;
         font-family: serif;
         color: maroon;
@@ -197,3 +196,4 @@
     }
 
 }
+
