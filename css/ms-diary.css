@@ -10,7 +10,7 @@
     }
 
     .back-button {
-        diplay: grid;
+        display: grid;
         width: 80px;
         height: 80px;
         background-color: lightyellow;
@@ -146,5 +146,6 @@
     }
 
 }
+
 
 
