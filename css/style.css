@@ -10,12 +10,14 @@
     }
 
     .diary-button {
+        diplay: grid;
         width: 120px;
         height: 100px;
         background-color: lightyellow;
         border: solid 4px black;
         border-radius: 20%;
         text-align: center;
+        align-items: center;
 
         /*画面左下に固定*/
         position: fixed;
@@ -26,7 +28,6 @@
 
     .button-text {
         font-size: 1.4rem;
-        line-height: 3rem;
         font-weight: bold;
         color: coral;
         text-shadow: 0.1rem 0.1rem 2px lightgray;
@@ -204,5 +205,6 @@
         display: none;
     }
 }
+
 
 
