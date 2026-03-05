@@ -119,8 +119,9 @@
     }
 
     .topic-content {
-        width: 100%;
+        width: 80%;
         display: block;
+        margin: 0 auto;
     }
 
     .topic-text-i {
@@ -227,6 +228,7 @@
     }
 
 }
+
 
 
 
