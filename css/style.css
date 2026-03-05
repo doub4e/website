@@ -1,5 +1,4 @@
-/*PCディスプレイ全般向け表示設定*/
-
+/*for PC*/
 @media screen and (min-width: 961px) {
     body {
         background-color: azure;
@@ -205,4 +204,5 @@
         display: none;
     }
 }
+
 
